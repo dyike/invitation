@@ -1,0 +1,23 @@
+{
+  "id": "2495602",
+  "name": "wedding",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21067930",
+      "name": "时间",
+      "font_class": "shijian-copy",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "21067942",
+      "name": "位置",
+      "font_class": "zb-copy",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
