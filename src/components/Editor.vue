@@ -57,12 +57,12 @@
     },
     mounted() {
       let wxShareData = {
-        title: "微信分享测试",
-        linkurl: location.origin + "/index.html#/test?shareId=154545",
-        desc: "分享链接添加动态参数",
-        img: "http://a2.att.hudong.com/36/48/19300001357258133412489354717.jpg"
+        title: "袁峰&陆杨柳的结婚请柬",
+        linkurl: location.origin + "/index.html",
+        desc: "感谢您参加我们的婚礼!",
+        img: "http://wedding.mupaiwan.com/images/mini-photo.png"
       };
-      wx.getJSSDK(wxShareData, "154545");
+      wx.getJSSDK(wxShareData);
     },
 
     created() {

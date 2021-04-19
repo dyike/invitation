@@ -155,15 +155,9 @@ export default {
             }
 
             .content-inside-map{
-              max-width: 640px;
-              max-height: 549px;
-              @media (max-width: 800px) {
-                & {
-                  width: 100%;
-                  margin: auto;
-                }
-              }
-              border-radius: 10%;
+              width: 100%;
+              margin-bottom: 10px;
+              border-radius: 5%;
             }
 
             .content-inside-bless{
