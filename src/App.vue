@@ -6,13 +6,24 @@
 
 <script>
 import Editor from "./components/Editor.vue"
+import wx from './utils/wx'
 
 export default {
   props: [],
   components: {
     Editor
   },
-  name: 'Wedding'
+  name: 'Wedding',
+
+  mounted() {
+      let wxShareData = {
+        title: "袁峰&陆杨柳的结婚请柬",
+        linkurl: location.origin + "/index.html",
+        desc: "感谢您参加我们的婚礼!",
+        img: "http://wedding.mupaiwan.com/images/mini-photo.png"
+      };
+      wx.getJSSDK(wxShareData);
+    },
 }
 
 </script>
